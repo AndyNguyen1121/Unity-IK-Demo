@@ -719,6 +719,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180174799}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &220048982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1236257789494122, guid: 8b0b86b42def11849a8eba21f4a6a684, type: 3}
+  m_PrefabInstance: {fileID: 1831162684}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &416511756 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -3432401550182100168, guid: b9bfe04aeeb9306499ecbd21dbf4a0f9, type: 3}
@@ -868,6 +873,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4243371153570508, guid: 8b0b86b42def11849a8eba21f4a6a684, type: 3}
   m_PrefabInstance: {fileID: 1831162684}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &793823691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220048982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48948dfe9d76b07488dacd46a7955fa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &850179511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,7 +1457,7 @@ Transform:
   m_GameObject: {fileID: 1169756608}
   serializedVersion: 2
   m_LocalRotation: {x: -0.6475535, y: 0.37472415, z: 0.50326306, w: 0.43241495}
-  m_LocalPosition: {x: 0.093, y: -0.06, z: -0.014}
+  m_LocalPosition: {x: 0.089, y: -0.029, z: -0.054}
   m_LocalScale: {x: 0.10000003, y: 0.10000003, z: 0.10000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2063,7 +2080,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4243371153570508, guid: 8b0b86b42def11849a8eba21f4a6a684, type: 3}
       insertIndex: 0
       addedObject: {fileID: 1169756609}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1236257789494122, guid: 8b0b86b42def11849a8eba21f4a6a684, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 793823691}
   m_SourcePrefab: {fileID: 100100000, guid: 8b0b86b42def11849a8eba21f4a6a684, type: 3}
 --- !u!1001 &1949321346
 PrefabInstance:
